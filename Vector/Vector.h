@@ -22,6 +22,8 @@ public:
 
     void fillVectorByUser();
 
+    T vectorElementsProduct();
+
     ~Vector();
 };
 
@@ -63,6 +65,7 @@ void Vector<T>::printVector() {
 /**
  * @brief Add all vector's elements
  * @tparam T
+ * @return counter
  */
 template <typename T>
 T Vector<T>::addElements() {
@@ -74,6 +77,10 @@ T Vector<T>::addElements() {
     return counter;
 }
 
+/**
+ * @brief Fill a vector by user
+ * @tparam T
+ */
 template <typename T>
 void Vector<T>::fillVectorByUser() {
     for (int i = 0; i < size; ++i){
@@ -82,6 +89,21 @@ void Vector<T>::fillVectorByUser() {
     }
 }
 
+/**
+ * @brief Vector's elements product
+ * @tparam T
+ * @return productory
+ */
+template <typename T>
+T Vector<T>::vectorElementsProduct() {
+    T productory = 1.0;
+
+    for (int i = 0; i < size; ++i){
+        productory *= data[i];
+    }
+
+    return productory;
+}
 
 /**
  * @brief Destructor
