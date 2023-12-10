@@ -26,6 +26,8 @@ public:
 
     void showAssociatedIndex();
 
+    void printReverseOrder();
+
     ~Vector();
 };
 
@@ -107,11 +109,26 @@ T Vector<T>::vectorElementsProduct() {
     return productory;
 }
 
+/**
+ * @brief Show vector's elements with their associated indexes
+ * @tparam T
+ */
 template <typename T>
 void Vector<T>::showAssociatedIndex() {
     int i = 0;
     for (i; i < size; ++i){
         std::cout << "- Index [" << i << "]: " << data[i] << std::endl;
+    }
+}
+
+/**
+ * @breif Print vector in reverse order
+ * @tparam T
+ */
+template <typename T>
+void Vector<T>::printReverseOrder() {
+    for (int i = (size - 1); i >= 0; i--){
+        std::cout << data[i] << " ";
     }
 }
 

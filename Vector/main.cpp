@@ -33,9 +33,18 @@ int main (){
 */
 
 // [3.] Show vector's elements with their associated indexes
+/*
     Vector<char> vector3(5);
     vector3.fillVectorByUser();
     vector3.showAssociatedIndex();
+*/
+
+// [4.] Print vector in reverse order
+/*
+    Vector<int> vector4(10);
+    vector4.fillVectorByUser();
+    vector4.printReverseOrder();
+*/
 
     return 0;
 }
