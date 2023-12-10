@@ -102,5 +102,16 @@ int main (){
     cout << endl;
 */
 
+
+// [8.] Multiplying by 2 the numbers of a vector and displaying it in another one.
+/*
+    Vector<int> vector8a(5);
+    vector8a.fillVectorByUser();
+    vector8a.multiplicationBy2();
+
+    Vector<int> vector8(vector8a);
+    vector8.printVector();
+*/
+
     return 0;
 }

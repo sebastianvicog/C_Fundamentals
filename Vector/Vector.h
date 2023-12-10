@@ -14,6 +14,8 @@ private:
 public:
     Vector(int size);
 
+    Vector(const Vector<T> &orig);
+
     void defaultInitializerVector();
 
     void printVector();
@@ -34,6 +36,8 @@ public:
 
     Vector<T> store2Vector(const Vector<T> &vec);
 
+    void multiplicationBy2();
+
     ~Vector();
 };
 
@@ -48,6 +52,21 @@ Vector<T>::Vector(int size) {
     data = new T[size];
 
     defaultInitializerVector();
+}
+
+/**
+ * @brief Copy Constructor
+ * @tparam T
+ * @param orig
+ */
+template <typename T>
+Vector<T>::Vector(const Vector<T> &orig) {
+    this->size = orig.size;
+    data = new T[size];
+
+    for (int i = 0; i < size; ++i){
+        data[i] = orig.data[i];
+    }
 }
 
 /**
@@ -201,6 +220,17 @@ Vector<T> Vector<T>::store2Vector(const Vector<T> &vec) {
     }
 
     return vecResult;
+}
+
+/**
+ * @brief Multiplying vector's elements by 2
+ * @tparam T
+ */
+template <typename T>
+void Vector<T>::multiplicationBy2() {
+    for (int i = 0; i < size; ++i){
+        data[i] *= 2;
+    }
 }
 
 /**
