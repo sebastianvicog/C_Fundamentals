@@ -63,8 +63,23 @@ int main (){
 */
 
 
-// [6.]
+// [6.] Determine if a number in a vector is equal to the sum of the rest of the elements contained in the vector
+/*
+    Vector<int> vector6(5);
+    bool flag = false;
 
+    vector6.fillVectorByUser();
+    cout << "\nVector: ";
+    vector6.printVector();
+
+    flag = vector6.numberEqualSum();
+
+    if (flag == true){
+        cout << "\nYes. Exists a number that is equal to vector's sum" << endl;
+    } else {
+        cout << "\nNo. There is not number that is equal to vector's sum" << endl;
+    }
+*/
 
     return 0;
 }

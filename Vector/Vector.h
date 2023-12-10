@@ -30,6 +30,8 @@ public:
 
     T biggestElement();
 
+    bool numberEqualSum();
+
     ~Vector();
 };
 
@@ -150,6 +152,28 @@ T Vector<T>::biggestElement() {
     }
 
     return biggest;
+}
+
+/**
+ * @brief A number is equal vector's sum
+ *
+ * This function determine if a number in a vector is equal to the sum of the rest of the elements contained in the vector
+ *
+ * @tparam T
+ * @return True/False
+ */
+template <typename T>
+bool Vector<T>::numberEqualSum() {
+    int sum = addElements();
+    bool flag = false;
+
+    for (int i = 0; i < size; ++i){
+        if (data[i] == (sum - data[i])){
+            flag = true;
+        }
+    }
+
+    return flag;
 }
 
 /**
