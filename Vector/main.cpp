@@ -21,6 +21,7 @@ int main (){
 */
 
 // [2.] Make vector's elements product
+/*
     Vector<int> vector2(10);
     int productory;
 
@@ -29,6 +30,12 @@ int main (){
 
     productory = vector2.vectorElementsProduct();
     cout << "\nVector's elements product: " << productory;
+*/
+
+// [3.] Show vector's elements with their associated indexes
+    Vector<char> vector3(5);
+    vector3.fillVectorByUser();
+    vector3.showAssociatedIndex();
 
     return 0;
 }

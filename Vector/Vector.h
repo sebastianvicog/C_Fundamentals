@@ -24,6 +24,8 @@ public:
 
     T vectorElementsProduct();
 
+    void showAssociatedIndex();
+
     ~Vector();
 };
 
@@ -103,6 +105,14 @@ T Vector<T>::vectorElementsProduct() {
     }
 
     return productory;
+}
+
+template <typename T>
+void Vector<T>::showAssociatedIndex() {
+    int i = 0;
+    for (i; i < size; ++i){
+        std::cout << "- Index [" << i << "]: " << data[i] << std::endl;
+    }
 }
 
 /**
