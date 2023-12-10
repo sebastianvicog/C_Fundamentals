@@ -28,6 +28,8 @@ public:
 
     void printReverseOrder();
 
+    T biggestElement();
+
     ~Vector();
 };
 
@@ -130,6 +132,24 @@ void Vector<T>::printReverseOrder() {
     for (int i = (size - 1); i >= 0; i--){
         std::cout << data[i] << " ";
     }
+}
+
+/**
+ * @brief Print vector's biggest element
+ * @tparam T
+ * @return biggest
+ */
+template <typename T>
+T Vector<T>::biggestElement() {
+    T biggest = -100000;
+
+    for (int i = 0; i < size; ++i){
+        if (data[i] > biggest){
+            biggest = data[i];
+        }
+    }
+
+    return biggest;
 }
 
 /**
