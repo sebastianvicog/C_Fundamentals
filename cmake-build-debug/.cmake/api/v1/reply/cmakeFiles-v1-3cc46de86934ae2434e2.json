@@ -149,6 +149,12 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "Matrix/CMakeLists.txt"
+		},
+		{
+			"path" : "Vector/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

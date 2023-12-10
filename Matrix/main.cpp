@@ -9,6 +9,7 @@ int main() {
 
     try {
 
+
 // [1.] Fill a matrix by asking the user for the number of rows and columns. Subsequently, display the matrix on the screen.
 /*
         int x1,y1;
@@ -117,7 +118,7 @@ int main() {
 */
 
 // [8.] Calculate the product of two square matrices of 3x3
-/*
+
         Matrix<int> myMatrix8a(3,3);
         myMatrix8a.fillMatrixByUser();
         myMatrix8a.printMatrix();
@@ -129,7 +130,8 @@ int main() {
         cout << "\nResult Matrix: " << endl;
         Matrix<int> myMatrix8 = myMatrix8b.product(myMatrix8a);
         myMatrix8.printMatrix();
-*/
+
+
 
     } catch (const std::invalid_argument &e) {
         std::cerr << "Error: " << e.what() << std::endl;

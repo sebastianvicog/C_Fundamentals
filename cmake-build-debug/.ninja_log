@@ -1,4 +1,11 @@
 # ninja log v5
-3	201	7239115580998608	build.ninja	b7f3937b939a830f
-1	532	7239115586619089	CMakeFiles/ATS_Course.dir/Matrix/main.cpp.obj	c5ae03c033a157dd
-534	677	7239115588009205	ATS_Course.exe	5101b7841dc9bd99
+2	202	7239154488088107	build.ninja	b7f3937b939a830f
+5	698	7239146059806568	CMakeFiles/ATS_Course.dir/Matrix/main.cpp.obj	c5ae03c033a157dd
+5	557	7239145256655926	CMakeFiles/ATS_Course.dir/Vector/main.cpp.obj	49e52bad097634ae
+4	551	7239144333197474	CMakeFiles/ATS_Course.dir/Vector/mainVector.cpp.obj	6d5e1ebb65b27f5d
+0	548	7239154345402495	Matrix/CMakeFiles/Matrix.dir/main.cpp.obj	5f64ee748969962e
+548	674	7239154346592611	Matrix/Matrix.exe	2837037fbcdec3b2
+4	607	7239154901810222	Matrix/CMakeFiles/Matrix.dir/main.cpp.obj	5f64ee748969962e
+607	733	7239154903010326	Matrix/Matrix.exe	2837037fbcdec3b2
+0	508	7239155281619715	Vector/CMakeFiles/Vector.dir/main.cpp.obj	e6e8253b665777aa
+509	637	7239155282839825	Vector/Vector.exe	eee49a103f1e9880
