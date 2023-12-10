@@ -81,5 +81,26 @@ int main (){
     }
 */
 
+
+// [7.] Store two vector's contents in a single vector
+/*
+    Vector<int> vector7a(10);
+    vector7a.fillVectorByUser();
+    cout << "\nVector 1: " << endl;
+    vector7a.printVector();
+    cout << endl << endl;
+
+    Vector<int> vector7b(5);
+    vector7b.fillVectorByUser();
+    cout << "\nVector 2: "<< endl;
+    vector7b.printVector();
+    cout << endl;
+
+    Vector<int> vector7 = vector7a.store2Vector(vector7b);
+    cout << "\n- Store the vectors in a single one: " << endl;
+    vector7.printVector();
+    cout << endl;
+*/
+
     return 0;
 }

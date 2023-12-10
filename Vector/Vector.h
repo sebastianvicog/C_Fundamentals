@@ -32,6 +32,8 @@ public:
 
     bool numberEqualSum();
 
+    Vector<T> store2Vector(const Vector<T> &vec);
+
     ~Vector();
 };
 
@@ -92,7 +94,7 @@ T Vector<T>::addElements() {
 template <typename T>
 void Vector<T>::fillVectorByUser() {
     for (int i = 0; i < size; ++i){
-        std::cout << "Inser data [" << i << "]: " << std::endl;
+        std::cout << "Insert data [" << i << "]: " << std::endl;
         std::cin >> data[i];
     }
 }
@@ -174,6 +176,31 @@ bool Vector<T>::numberEqualSum() {
     }
 
     return flag;
+}
+
+/**
+ * @brief Store two vector's contents in a single vector
+ * @tparam T
+ * @param vec
+ * @return vector
+ */
+template <typename T>
+Vector<T> Vector<T>::store2Vector(const Vector<T> &vec) {
+    Vector<T> vecResult(size + vec.size);
+
+    //First, I fill first vector's half
+    for (int i = 0; i < this->size; ++i){
+        vecResult.data[i] = this->data[i];
+    }
+
+    //Now, I fill second vector's half
+    int aux = 0;
+    for (int i = (vecResult.size - vec.size); i < vecResult.size; ++i){
+        vecResult.data[i] = vec.data[aux];
+        aux++;
+    }
+
+    return vecResult;
 }
 
 /**
