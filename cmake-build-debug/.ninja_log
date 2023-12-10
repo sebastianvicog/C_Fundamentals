@@ -1,0 +1,4 @@
+# ninja log v5
+3	201	7239115580998608	build.ninja	b7f3937b939a830f
+1	532	7239115586619089	CMakeFiles/ATS_Course.dir/Matrix/main.cpp.obj	c5ae03c033a157dd
+534	677	7239115588009205	ATS_Course.exe	5101b7841dc9bd99
