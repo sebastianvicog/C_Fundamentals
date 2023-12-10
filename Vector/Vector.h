@@ -18,6 +18,10 @@ public:
 
     void printVector();
 
+    T addElements();
+
+    void fillVectorByUser();
+
     ~Vector();
 };
 
@@ -55,6 +59,29 @@ void Vector<T>::printVector() {
         std::cout << data[i] << " ";
     }
 }
+
+/**
+ * @brief Add all vector's elements
+ * @tparam T
+ */
+template <typename T>
+T Vector<T>::addElements() {
+    T counter = 0;
+    for (int i = 0; i < size; ++i){
+        counter += data[i];
+    }
+
+    return counter;
+}
+
+template <typename T>
+void Vector<T>::fillVectorByUser() {
+    for (int i = 0; i < size; ++i){
+        std::cout << "Inser data [" << i << "]: " << std::endl;
+        std::cin >> data[i];
+    }
+}
+
 
 /**
  * @brief Destructor

@@ -7,16 +7,16 @@
 using namespace std;
 
 int main (){
-    Vector<int> vectorTest(10);
-    vectorTest.printVector();
+
+// [1.] Adds the elements of a vector
+    Vector<double> vector1 (5);
+    double sumVectorElements = 0;
+
+    vector1.fillVectorByUser();
+    vector1.printVector();
+
+    sumVectorElements = vector1.addElements();
+    cout << "\nVector elements sum: " << sumVectorElements;
 
     return 0;
 }
-
-/*
- add_executable(ATS_Course
-        Matrix/Matrix.h
-        Matrix/main.cpp
-        Vector/Vector.h
-        Vector/main.cpp)
- */
