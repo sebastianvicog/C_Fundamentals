@@ -76,5 +76,20 @@ int main(){
     cout << "\nThe string typed by user is: " << vResult << endl;
 */
 
+// Compare two strings
+/*
+    char n5[] = "Hello";
+    char n6[] = "Hello";
+    int equals = 0; //Strings are equals
+
+   equals = strcmp(n5, n6);
+
+   if (equals == 0){
+       cout << "Strings are equals";
+   } else {
+       cout << "Strings are not equals";
+   }
+*/
+
     return 0;
 }
