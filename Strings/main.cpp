@@ -9,13 +9,13 @@ using namespace std;
 
 int main(){
 
-// [1.] Introduction: char
+// Introduction: char
 /*
     char n1[] = "Sebastian";
     cout << n1 << endl;
 */
 
-// [2.] Save a user inserted char
+// Save a user inserted char
 /*
     char n2[10];
     cout << "Insert your name: ";
@@ -27,7 +27,7 @@ int main(){
 */
 
 
-//[3.] Length of a string
+// Length of a string
 /*
     char word[] = "hello";
     int length = 0;
@@ -37,7 +37,21 @@ int main(){
     cout << "Word: " << word << " length is " << length << endl;
 */
 
+// [1.] Request the user to type a string of characters.
+//      Check the length and if it is longer than 10 characters display it on the screen, else do not display it.
+/*
+    char v1[100];
+    int length1;
 
+    cout << "Type a string: ";
+    cin.getline(v1,100, '\n');
+
+    length1 = strlen(v1);
+
+    if (length1 > 10){
+        cout << "\nThe string is: "<< v1 << endl;
+    }
+*/
 
 
     return 0;
