@@ -54,13 +54,27 @@ int main(){
 */
 
 // Copy the contents of one string to another: strcpy
+/*
     char n3[] = "Hello";
     char n4[50];
 
     strcpy(n4,n3);
 
     cout << n4 << endl;
+*/
 
+// [2.] Request the user to type a string of characters.
+//      Store in a char and then copy all its content to another char
+/*
+    char v2[100], vResult[100];
+
+    cout << "Type a string please: ";
+    cin.getline(v2, 100, '\n');
+
+    strcpy(vResult,v2);
+
+    cout << "\nThe string typed by user is: " << vResult << endl;
+*/
 
     return 0;
 }
