@@ -155,6 +155,9 @@
 		},
 		{
 			"path" : "Vector/CMakeLists.txt"
+		},
+		{
+			"path" : "Strings/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

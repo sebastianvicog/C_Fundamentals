@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -46,6 +47,21 @@
 					"source" : "Vector",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "Strings",
+					"jsonFile" : "directory-Strings-Debug-a667743ad0c9be774e7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Strings",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -58,13 +74,15 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "ATS_Course",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -75,6 +93,13 @@
 					"id" : "Matrix::@8f54aebd265510262963",
 					"jsonFile" : "target-Matrix-Debug-01fb6adda119ccd5dc30.json",
 					"name" : "Matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Strings::@4d35d603dedcffb10125",
+					"jsonFile" : "target-Strings-Debug-7be9dced9333652a507c.json",
+					"name" : "Strings",
 					"projectIndex" : 0
 				},
 				{

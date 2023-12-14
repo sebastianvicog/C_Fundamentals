@@ -5,5 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(Matrix)
 add_subdirectory(Vector)
+add_subdirectory(Strings)
 
 
