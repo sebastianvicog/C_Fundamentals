@@ -27,7 +27,17 @@ int main(){
 */
 
 
-//[3.]
+//[3.] Length of a string
+/*
+    char word[] = "hello";
+    int length = 0;
+
+    length = strlen(word);
+
+    cout << "Word: " << word << " length is " << length << endl;
+*/
+
+
 
 
     return 0;
