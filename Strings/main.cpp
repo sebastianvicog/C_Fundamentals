@@ -27,7 +27,7 @@ int main(){
 */
 
 
-// Length of a string
+// Length of a string: strlen()
 /*
     char word[] = "hello";
     int length = 0;
@@ -52,6 +52,14 @@ int main(){
         cout << "\nThe string is: "<< v1 << endl;
     }
 */
+
+// Copy the contents of one string to another: strcpy
+    char n3[] = "Hello";
+    char n4[50];
+
+    strcpy(n4,n3);
+
+    cout << n4 << endl;
 
 
     return 0;
