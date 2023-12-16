@@ -1,5 +1,5 @@
 //
-// Created by Sebastián Alberto Vico Guzmán
+// Created by Sebastián Vico Guzmán
 //
 
 #include <iostream>
@@ -90,6 +90,9 @@ int main(){
        cout << "Strings are not equals";
    }
 */
+
+// [3.] Ask the user to type 2 strings and indicate if both strings are equal,
+//      if strings are not equals dicate which is alphabetically greater.
 
     return 0;
 }

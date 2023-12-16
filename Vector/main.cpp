@@ -1,6 +1,7 @@
 //
-// Created by sebav on 10/12/2023.
+// Created by Sebastián Vico Guzmán
 //
+
 #include <iostream>
 #include "Vector.h"
 

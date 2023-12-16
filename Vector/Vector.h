@@ -1,4 +1,4 @@
-// Created by Sebastian A. Vico Guzman
+// Created by Sebastian Vico Guzman
 
 #ifndef ATS_COURSE_VECTOR_H
 #define ATS_COURSE_VECTOR_H
