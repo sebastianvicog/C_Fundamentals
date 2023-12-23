@@ -142,11 +142,29 @@ int main(){
 
 // Reverse a string
 /*
-    char n10[] = "Hola";
+    char n10[] = "Hello";
 
     strrev(n10);
     cout << n10 << endl;
 */
+
+// [5.] Make a program that determines if a word is palindrome.
+    char v5[100], v5pal[100];
+
+    cout << "Please type a word: ";
+    cin.get(v5,100,'\n');
+
+    strcpy(v5pal, v5);
+
+    strrev(v5pal);
+
+    if (strcmp(v5, v5pal) == 0){
+        cout << "The word " << v5 << " is palindrome";
+    } else {
+        cout << "The word " << v5 << " is not palindrome";
+    }
+
+
 
     return 0;
 }
