@@ -149,6 +149,7 @@ int main(){
 */
 
 // [5.] Make a program that determines if a word is palindrome.
+/*
     char v5[100], v5pal[100];
 
     cout << "Please type a word: ";
@@ -163,8 +164,13 @@ int main(){
     } else {
         cout << "The word " << v5 << " is not palindrome";
     }
+*/
 
+// Change a word to capital letters
+    char n11[] = "Sebastian";
 
+    strupr(n11);
+    cout << n11 << endl;
 
     return 0;
 }
