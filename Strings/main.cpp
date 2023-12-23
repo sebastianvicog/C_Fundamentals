@@ -92,7 +92,27 @@ int main(){
 */
 
 // [3.] Ask the user to type 2 strings and indicate if both strings are equal,
-//      if strings are not equals dicate which is alphabetically greater.
+//      if strings are not equals indicate which is alphabetically greater.
+/*
+    char v3a[100], v3b[100];
+    int equals = 0; //Strings are equals
+
+    cout << "Type a string: ";
+    cin.getline(v3a, 100, '\n');
+    cout << "Type another string: ";
+    cin.getline(v3b, 100, '\n');
+
+    equals = strcmp(v3a, v3b);
+
+    if (equals == 0){
+        cout << "Both words are the same" << endl;
+    } else if (equals > 0) {
+        cout << v3a << " is alphabetically greater than " << v3b << endl;
+    } else {
+        cout << v3a << " is alphabetically less than " << v3b << endl;
+    }
+*/
+
 
     return 0;
 }
