@@ -167,10 +167,31 @@ int main(){
 */
 
 // Change a word to capital letters
+/*
     char n11[] = "Sebastian";
 
     strupr(n11);
     cout << n11 << endl;
+*/
+
+// [6.] Change two strings to capital letters. Compare them and print if they are the same word.
+/*
+    char v6a[100], v6b[100];
+    cout << "Type a string: ";
+    cin.getline(v6a, 100, '\n');
+    cout << "Type another string: ";
+    cin.getline(v6b, 100, '\n');
+
+    strupr(v6a);
+    strupr(v6b);
+
+    if (strcmp(v6a, v6b) == 0 ){
+        cout << "Both strings are the same";
+    } else {
+        cout << "This two words are different";
+    }
+*/
+
 
     return 0;
 }
