@@ -129,6 +129,7 @@ int main(){
 // [4.] Create a string than have the phrase: Hi! How are you?.
 //      Then create another string to ask the user for their name.
 //      Finally, add the name at the end of the first string and print the whole message.
+/*
     char v4a[] = "Hi! How are you? ";
     char v4b[100];
 
@@ -137,8 +138,15 @@ int main(){
 
     strcat(v4a, v4b);
     cout << v4a << endl;
+*/
 
+// Reverse a string
+/*
+    char n10[] = "Hola";
 
+    strrev(n10);
+    cout << n10 << endl;
+*/
 
     return 0;
 }
