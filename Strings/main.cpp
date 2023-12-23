@@ -113,6 +113,19 @@ int main(){
     }
 */
 
+// Concatenate two strings
+
+    char n7[] = "This is an ";
+    char n8[] = "example string ";
+    char n9[100];
+
+    strcpy(n9, n7);
+
+    strcat(n9, n8);
+
+    cout << n9 << endl;
+
+
 
     return 0;
 }
