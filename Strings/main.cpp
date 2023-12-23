@@ -192,6 +192,13 @@ int main(){
     }
 */
 
+// Change a word to lower case
+/*
+    char n12[] = "SEBASTiAn";
+
+    strlwr(n12);
+    cout << n12 << endl;
+*/
 
     return 0;
 }
