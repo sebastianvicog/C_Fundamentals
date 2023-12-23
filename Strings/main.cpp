@@ -114,7 +114,7 @@ int main(){
 */
 
 // Concatenate two strings
-
+/*
     char n7[] = "This is an ";
     char n8[] = "example string ";
     char n9[100];
@@ -124,6 +124,19 @@ int main(){
     strcat(n9, n8);
 
     cout << n9 << endl;
+*/
+
+// [4.] Create a string than have the phrase: Hi! How are you?.
+//      Then create another string to ask the user for their name.
+//      Finally, add the name at the end of the first string and print the whole message.
+    char v4a[] = "Hi! How are you? ";
+    char v4b[100];
+
+    cout << "What is your name? ";
+    cin.getline(v4b, 100, '\n');
+
+    strcat(v4a, v4b);
+    cout << v4a << endl;
 
 
 
