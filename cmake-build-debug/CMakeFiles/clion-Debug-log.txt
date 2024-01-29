@@ -11,6 +11,10 @@ C:\Users\sebav\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCM
 -- Check for working CXX compiler: C:/Users/sebav/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+<<<<<<< HEAD
 -- Configuring done (3.1s)
+=======
+-- Configuring done (6.6s)
+>>>>>>> release2
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug
