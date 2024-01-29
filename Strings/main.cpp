@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -202,16 +203,30 @@ int main(){
 
 // [7.] Ask for the user's name in capital letters. If their name begins with the letter A, convert it to lower case. Else do not convert it to lower case.
 /*
-    char n13[100];
+    char v7[100];
 
     cout << "Type your name in capital letters:  ";
-    cin.getline(n13, 100, '\n');
+    cin.getline(v7, 100, '\n');
 
-    if (strncmp(n13, "A",1)==0){
-        strlwr(n13);
+    if (strncmp(v7, "A", 1)==0){
+        strlwr(v7);
     }
 
-    cout << "Your name is: " << n13 << endl;
+    cout << "Your name is: " << v7 << endl;
+*/
+
+// Change a string to a number (int / float)
+/*
+    char n13[] = "123";
+    char n14[] = "1234.123";
+    int intNumber;
+    float floatNumber;
+
+    intNumber = atoi(n13);
+    floatNumber = atof(n14);
+
+    cout << intNumber << endl;
+    cout << floatNumber << endl;
 */
 
     return 0;
