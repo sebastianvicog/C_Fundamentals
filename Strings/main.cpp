@@ -229,5 +229,18 @@ int main(){
     cout << floatNumber << endl;
 */
 
+// [8.] Ask the user for an int string and a float string. Convert them to their respective values and finally make their sum
+    char v8a[100], v8b[100];
+
+    cout << "Type an int number: ";
+    cin.getline(v8a, 100, '\n');
+
+    cout << "Type a float number: ";
+    cin.getline(v8b, 100, '\n');
+
+    float sum = atoi(v8a) + atof(v8b);
+
+    cout << "The sum is: " << sum << endl;
+
     return 0;
 }
