@@ -230,17 +230,54 @@ int main(){
 */
 
 // [8.] Ask the user for an int string and a float string. Convert them to their respective values and finally make their sum
-    char v8a[100], v8b[100];
+/*
+    char v8a[10], v8b[10];
 
     cout << "Type an int number: ";
-    cin.getline(v8a, 100, '\n');
+    cin.getline(v8a, 10, '\n');
 
     cout << "Type a float number: ";
-    cin.getline(v8b, 100, '\n');
+    cin.getline(v8b, 10, '\n');
 
     float sum = atoi(v8a) + atof(v8b);
 
     cout << "The sum is: " << sum << endl;
+*/
+
+// [9.] Make a program that reads of standard input a string and print how many occurrences of each vocal exist in the string.
+/*
+    char v9[30];
+    int contA = 0, contE = 0, contI = 0, contO = 0, contU = 0;
+
+    cout << "Type a phrase: ";
+    cin.getline(v9, 30, '\n');
+
+    for (int i = 0; i < 30; i++){
+        switch (v9[i]) {
+            case 'a':
+                contA++;
+                break;
+            case 'e':
+                contE++;
+                break;
+            case 'i':
+                contI++;
+                break;
+            case 'o':
+                contO++;
+                break;
+            case 'u':
+                contU++;
+                break;
+        }
+    }
+
+    cout << "vocal a: " << contA << endl;
+    cout << "vocal e: " << contE << endl;
+    cout << "vocal i: " << contI << endl;
+    cout << "vocal o: " << contO << endl;
+    cout << "vocal u: " << contU << endl;
+*/
 
     return 0;
 }

@@ -5,6 +5,7 @@
 
 // Random numbers
 #include <stdlib.h>
+#include <iostream>
 #include <time.h>
 
 template <typename T>
