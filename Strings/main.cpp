@@ -200,5 +200,19 @@ int main(){
     cout << n12 << endl;
 */
 
+// [7.] Ask for the user's name in capital letters. If their name begins with the letter A, convert it to lower case. Else do not convert it to lower case.
+/*
+    char n13[100];
+
+    cout << "Type your name in capital letters:  ";
+    cin.getline(n13, 100, '\n');
+
+    if (strncmp(n13, "A",1)==0){
+        strlwr(n13);
+    }
+
+    cout << "Your name is: " << n13 << endl;
+*/
+
     return 0;
 }
