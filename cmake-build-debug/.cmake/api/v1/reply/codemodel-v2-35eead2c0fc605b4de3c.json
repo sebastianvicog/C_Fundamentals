@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Matrix",
+					"jsonFile" : "directory-Matrix-Debug-b36d5918c082b258ba0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Matrix",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Vector",
+					"jsonFile" : "directory-Vector-Debug-455e20b4fbbd3ab697c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Vector",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Strings",
+					"jsonFile" : "directory-Strings-Debug-a667743ad0c9be774e7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Strings",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "SortingAlgorithms",
+					"jsonFile" : "directory-SortingAlgorithms-Debug-d6b862e56157e59722e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SortingAlgorithms",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "ATS_Course",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Matrix::@8f54aebd265510262963",
+					"jsonFile" : "target-Matrix-Debug-01fb6adda119ccd5dc30.json",
+					"name" : "Matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SortingAlgorithms::@d9be98a81dc2ef937091",
+					"jsonFile" : "target-SortingAlgorithms-Debug-daf1819d46e0c4e1f873.json",
+					"name" : "SortingAlgorithms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Strings::@4d35d603dedcffb10125",
+					"jsonFile" : "target-Strings-Debug-7be9dced9333652a507c.json",
+					"name" : "Strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Vector::@711a2c0d59b1c1c6a0e9",
+					"jsonFile" : "target-Vector-Debug-be10719fa4dce8fb3309.json",
+					"name" : "Vector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug",
+		"source" : "C:/Users/sebav/CLionProjects/ATS_Course"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

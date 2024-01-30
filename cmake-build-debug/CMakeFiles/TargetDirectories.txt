@@ -1,0 +1,14 @@
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Matrix/CMakeFiles/Matrix.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Matrix/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Matrix/CMakeFiles/rebuild_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Vector/CMakeFiles/Vector.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Vector/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Vector/CMakeFiles/rebuild_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Strings/CMakeFiles/Strings.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Strings/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Strings/CMakeFiles/rebuild_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/SortingAlgorithms/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/SortingAlgorithms/CMakeFiles/rebuild_cache.dir
