@@ -1,52 +1,24 @@
 # ninja log v5
-<<<<<<< HEAD
-3	757	7250613150040607	build.ninja	b7f3937b939a830f
-=======
-3	757	7282509769867232	build.ninja	b7f3937b939a830f
->>>>>>> release2
-6	1169	7241970900571805	Matrix/CMakeFiles/Matrix.dir/main.cpp.obj	5f64ee748969962e
-4	804	7241976052344921	Vector/CMakeFiles/Vector.dir/main.cpp.obj	e6e8253b665777aa
-1170	1502	7241970903772065	Matrix/Matrix.exe	2837037fbcdec3b2
-806	982	7241976054035058	Vector/Vector.exe	eee49a103f1e9880
-722	874	7250609066008516	Strings/Strings.exe	b94156387c1b1f57
-1	29	0	clean	52aaf39695dc9294
-6	722	7250609064541616	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-<<<<<<< HEAD
-=======
+3	757	7283100169803280	build.ninja	b7f3937b939a830f
 2	1615	7282521779487939	Matrix/CMakeFiles/Matrix.dir/main.cpp.obj	5f64ee748969962e
 1616	2117	7282521784312307	Matrix/Matrix.exe	2837037fbcdec3b2
-1	1536	7282522129354674	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1537	1955	7282522133477657	Strings/Strings.exe	b94156387c1b1f57
-20	1674	7282522409093867	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1675	2039	7282522412628162	Strings/Strings.exe	b94156387c1b1f57
-12	1822	7282525000950277	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1823	2205	7282525004645799	Strings/Strings.exe	b94156387c1b1f57
-10	1532	7282525300569648	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1534	1856	7282525303699893	Strings/Strings.exe	b94156387c1b1f57
-9	1488	7282525588273249	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1490	1852	7282525591803554	Strings/Strings.exe	b94156387c1b1f57
-10	1501	7282525849155170	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1502	1835	7282525852415489	Strings/Strings.exe	b94156387c1b1f57
-9	1480	7282526419742853	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1481	1825	7282526423068234	Strings/Strings.exe	b94156387c1b1f57
-11	1497	7282526715277646	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1498	1829	7282526718477876	Strings/Strings.exe	b94156387c1b1f57
-9	1438	7282526936311659	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1439	1756	7282526939331099	Strings/Strings.exe	b94156387c1b1f57
-12	1529	7282527251044146	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1530	1867	7282527254333613	Strings/Strings.exe	b94156387c1b1f57
-12	1444	7282527385886163	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1445	1801	7282527389362384	Strings/Strings.exe	b94156387c1b1f57
-14	1698	7282532471397844	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1699	2075	7282532475041218	Strings/Strings.exe	b94156387c1b1f57
-14	1137	7282533355951086	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1138	1437	7282533358810652	Strings/Strings.exe	b94156387c1b1f57
-8	1469	7282534173401686	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1470	1824	7282534176801084	Strings/Strings.exe	b94156387c1b1f57
-13	1671	7282540084054154	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1672	2020	7282540087413793	Strings/Strings.exe	b94156387c1b1f57
-10	1553	7282540250414182	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
-1554	1893	7282540253663880	Strings/Strings.exe	b94156387c1b1f57
-14	1633	7282550761677890	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
+1	757	7283077264959011	Vector/CMakeFiles/Vector.dir/main.cpp.obj	e6e8253b665777aa
 1635	2008	7282550765281693	Strings/Strings.exe	b94156387c1b1f57
->>>>>>> release2
+757	998	7283077267277286	Vector/Vector.exe	eee49a103f1e9880
+1	29	0	clean	52aaf39695dc9294
+14	1633	7282550761677890	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
+1	691	7283077342625746	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+691	940	7283077344974318	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+5	602	7283100169803280	build.ninja	b7f3937b939a830f
+14	1357	7283109263553315	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1358	1717	7283109267043043	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+10	1572	7283109677210926	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1573	1870	7283109680094759	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+16	1779	7283109992263461	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1780	2083	7283109995206791	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+8	1737	7283112174710752	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1739	2033	7283112177526554	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+12	1789	7283112588871130	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1790	2096	7283112591796473	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+15	1865	7283113136063580	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
+1867	2171	7283113139115907	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
