@@ -49,23 +49,37 @@ void insertionSort (vector<int>& vector){
 }
 
 /**
- * @brief Print Original Vector
+ * @brief Selection Sort
+ *
+ * The basic idea behind this algorithm is to repeatedly select the smallest of all (or largest, depending on the desired order) items in the unsorted list and swap it with the first (or last) item in the sorted list.
+ * This process is repeated until the entire list is sorted.
+ *
+ * @param vector
  */
-void printOriginalVector(const vector<int>& v){
-    for (int i = 0; i < v.size(); ++i){
-        cout << v[i] << " ";
+void selectionSort(vector<int>& vector){
+    int minimum, aux;
+    for (int i = 0; i < vector.size(); ++i){
+        minimum = i;
+        for (int j = i+1; j < vector.size(); ++j){
+            if (vector[minimum] > vector[j]){
+                minimum = j;
+            }
+        }
+        aux = vector[i];
+        vector[i] = vector[minimum];
+        vector[minimum] = aux;
     }
 }
 
+
 /**
- * @brief Print Vector
+ * @brief Print vector
  * @param v
  */
-void printOrderedVector (const vector<int>& v){
+void printVector(const vector<int>& v){
     for (int i = 0; i < v.size(); ++i){
         cout << v[i] << " ";
     }
-    cout << endl;
 }
 
 
@@ -82,6 +96,9 @@ void sortingAlgorithms (vector<int>& v, int option){
         case 2:
             insertionSort(v);
             break;
+        case 3:
+            selectionSort(v);
+            break;
     }
 }
 
@@ -92,12 +109,13 @@ int main(){
     int option;
 
     cout << "Original vector: ";
-    printOriginalVector(numbers);
+    printVector(numbers);
 
     do {
         cout << endl << "\n----------M E N U----------" <<endl;
         cout << "[1] Bubble Sort" << endl;
         cout << "[2] Insertion sort" << endl;
+        cout << "[3] Selection sort" << endl;
 
         cout << "[0] EXIT" << endl;
         cin >> option;
@@ -109,12 +127,17 @@ int main(){
             case 1:
                 sortingAlgorithms(numbers, option);
                 cout << "Sorted vector by bubble sort: ";
-                printOrderedVector(numbers);
+                printVector(numbers);
                 break;
             case 2:
                 sortingAlgorithms(numbers, option);
                 cout << "Sorted vector by insertion sort: ";
-                printOrderedVector(numbers);
+                printVector(numbers);
+                break;
+            case 3:
+                sortingAlgorithms(numbers, option);
+                cout << "Sorted vector by selection sort: ";
+                printVector(numbers);
                 break;
             default:
                 cout << "No valid option. Please try again";
