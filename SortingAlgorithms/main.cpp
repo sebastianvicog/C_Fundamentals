@@ -71,6 +71,51 @@ void selectionSort(vector<int>& vector){
     }
 }
 
+/**
+ * @brief Swap Function
+ *
+ * This function is necessary for the Shell sort
+ *
+ * @param x
+ * @param y
+ */
+void swapFunction(int &x, int &y){
+    int aux;
+
+    aux = x;
+    x = y;
+    y = aux;
+}
+
+/**
+ * @brief Shell Sort
+ *
+ * The Shell algorithm modifies the contiguous jumps to larger jumps and thus makes the sorting faster.
+ * Generally, the initial jump is taken as n / 2 (where n is the number of elements), then in each iteration the jump is reduced by half, until the jump is of size 1.
+ *
+ * @param vector
+ */
+void shellSort(vector<int>& vector){
+    int jump, i, j, k;
+    jump = vector.size() / 2;
+
+    while (jump > 0){
+        for (i = jump; i < vector.size(); ++i){
+            j = i - jump;
+            while (j >= 0){
+                k = j + jump;
+                if (vector[j] <= vector[k]){ // Pair of elements are ordered
+                    j = -1; // Out of the while loop
+                } else { // Pair of element are not ordered
+                    swapFunction(vector[j],vector[k]);
+                    j = j - jump;
+                }
+            }
+        }
+        jump = jump / 2;
+    }
+
+}
 
 /**
  * @brief Print vector
@@ -99,6 +144,9 @@ void sortingAlgorithms (vector<int>& v, int option){
         case 3:
             selectionSort(v);
             break;
+        case 4:
+            shellSort(v);
+            break;
     }
 }
 
@@ -114,8 +162,9 @@ int main(){
     do {
         cout << endl << "\n----------M E N U----------" <<endl;
         cout << "[1] Bubble Sort" << endl;
-        cout << "[2] Insertion sort" << endl;
-        cout << "[3] Selection sort" << endl;
+        cout << "[2] Insertion Sort" << endl;
+        cout << "[3] Selection Sort" << endl;
+        cout << "[4] Shell Sort" << endl;
 
         cout << "[0] EXIT" << endl;
         cin >> option;
@@ -137,6 +186,11 @@ int main(){
             case 3:
                 sortingAlgorithms(numbers, option);
                 cout << "Sorted vector by selection sort: ";
+                printVector(numbers);
+                break;
+            case 4:
+                sortingAlgorithms(numbers, option);
+                cout << "Sortered vector by Shell Sort: ";
                 printVector(numbers);
                 break;
             default:
