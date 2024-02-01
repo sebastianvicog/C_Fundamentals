@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -48,7 +49,7 @@
 					"source" : "Vector",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -63,7 +64,7 @@
 					"source" : "Strings",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -76,6 +77,21 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "SortingAlgorithms",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "SearchesAlgorithms",
+					"jsonFile" : "directory-SearchesAlgorithms-Debug-2ef2a0a3077a33f00743.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "SearchesAlgorithms",
 					"targetIndexes" : 
 					[
 						1
@@ -92,7 +108,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "ATS_Course",
 					"targetIndexes" : 
@@ -100,7 +117,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -111,6 +129,13 @@
 					"id" : "Matrix::@8f54aebd265510262963",
 					"jsonFile" : "target-Matrix-Debug-01fb6adda119ccd5dc30.json",
 					"name" : "Matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SearchesAlgorithms::@4b89b0a7b3471be203e9",
+					"jsonFile" : "target-SearchesAlgorithms-Debug-b47c15d470e1040d279d.json",
+					"name" : "SearchesAlgorithms",
 					"projectIndex" : 0
 				},
 				{

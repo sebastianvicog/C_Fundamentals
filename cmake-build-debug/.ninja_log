@@ -1,5 +1,5 @@
 # ninja log v5
-5	602	7284823781023837	build.ninja	b7f3937b939a830f
+5	602	7284836175249472	build.ninja	b7f3937b939a830f
 28	1490	7283971648071676	Matrix/CMakeFiles/Matrix.dir/main.cpp.obj	5f64ee748969962e
 1491	1842	7283971651511938	Matrix/Matrix.exe	2837037fbcdec3b2
 1	757	7283077264959011	Vector/CMakeFiles/Vector.dir/main.cpp.obj	e6e8253b665777aa
@@ -9,3 +9,17 @@
 14	1633	7282550761677890	Strings/CMakeFiles/Strings.dir/main.cpp.obj	facbffd518db933e
 18	2713	7284819085167998	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	5d970a3066e281dd
 2714	3363	7284819091349726	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+2	812	7284835010019103	Searches/CMakeFiles/Searches.dir/main.cpp.obj	59d0ba71c4aa3c92
+813	1204	7284835013819439	Searches/Searches.exe	b45a619a6ca60a07
+2	1588	7284836401826651	SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir/main.cpp.obj	aa427acff25aa4f9
+1589	1962	7284836405446995	SearchesAlgorithms/SearchesAlgorithms.exe	48671d99af3a6f4f
+0	996	7284848310282298	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	cf4d193da06558fd
+998	1309	7284848313272579	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+9	1664	7284848597473223	SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj	cf4d193da06558fd
+10	366	7284848795757727	SortingAlgorithms/SortingAlgorithms.exe	75b5253840515bd3
+9	1205	7284850241316024	SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir/main.cpp.obj	aa427acff25aa4f9
+1206	1543	7284850244546254	SearchesAlgorithms/SearchesAlgorithms.exe	48671d99af3a6f4f
+8	1356	7284850979618266	SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir/main.cpp.obj	aa427acff25aa4f9
+1357	1660	7284850982518492	SearchesAlgorithms/SearchesAlgorithms.exe	48671d99af3a6f4f
+14	1186	7284851183267923	SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir/main.cpp.obj	aa427acff25aa4f9
+1187	1413	7284851185468195	SearchesAlgorithms/SearchesAlgorithms.exe	48671d99af3a6f4f
