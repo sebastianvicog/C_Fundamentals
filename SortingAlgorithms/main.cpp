@@ -165,7 +165,6 @@ void printVector(const vector<int>& v){
     }
 }
 
-
 /**
  * @brief Sorting Algorithms
  * @param v
@@ -190,7 +189,6 @@ void sortingAlgorithms (vector<int>& v, int option){
             break;
     }
 }
-
 
 int main(){
 
@@ -244,5 +242,4 @@ int main(){
                 cout << "No valid option. Please try again";
         }
     } while (option != 0);
-
 }

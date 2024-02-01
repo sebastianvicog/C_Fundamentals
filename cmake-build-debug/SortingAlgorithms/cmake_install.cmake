@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sebav/CLionProjects/ATS_Course/SortingAlgorithms
+# Install script for directory: C:/Users/sebav/CLionProjects/C_Fundamentals/SortingAlgorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

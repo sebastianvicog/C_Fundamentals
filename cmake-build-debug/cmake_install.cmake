@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sebav/CLionProjects/ATS_Course
+# Install script for directory: C:/Users/sebav/CLionProjects/C_Fundamentals
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Matrix/cmake_install.cmake")
+  include("C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Matrix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Vector/cmake_install.cmake")
+  include("C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Vector/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/Strings/cmake_install.cmake")
+  include("C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Strings/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/SortingAlgorithms/cmake_install.cmake")
+  include("C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/SortingAlgorithms/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

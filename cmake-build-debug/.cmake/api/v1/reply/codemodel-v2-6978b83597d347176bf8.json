@@ -140,8 +140,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/sebav/CLionProjects/ATS_Course/cmake-build-debug",
-		"source" : "C:/Users/sebav/CLionProjects/ATS_Course"
+		"build" : "C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug",
+		"source" : "C:/Users/sebav/CLionProjects/C_Fundamentals"
 	},
 	"version" : 
 	{

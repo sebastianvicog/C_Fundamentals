@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sebav/CLionProjects/ATS_Course/Strings
+# Install script for directory: C:/Users/sebav/CLionProjects/C_Fundamentals/Strings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
