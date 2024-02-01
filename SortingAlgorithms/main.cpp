@@ -74,7 +74,7 @@ void selectionSort(vector<int>& vector){
 /**
  * @brief Swap Function
  *
- * This function is necessary for the Shell sort
+ * This function is necessary for the Shell sort function and Quick sort function
  *
  * @param x
  * @param y
@@ -118,6 +118,44 @@ void shellSort(vector<int>& vector){
 }
 
 /**
+ * @brief Quick Sort
+ *
+ * It is based on the "divide and conquer" strategy, where the list to be sorted is divided into smaller subsets,
+ * these subsets are sorted and then combined to obtain the complete sorted list.
+ *
+ * @param vector
+ * @param initialPosition
+ * @param finalPosition
+ */
+void quickSort (vector<int> &vector, int initialPosition, int finalPosition){
+    int i = initialPosition, j = finalPosition;
+    int middlePosition, pivot;
+
+    middlePosition = (initialPosition + finalPosition) / 2;
+    pivot = vector[middlePosition];
+
+    do {
+        while (vector[i] < pivot ) i++; // Iterator i advances
+        while (vector[j] > pivot) j--; // Iterator j goes backwards
+
+        if (i <= j){
+            swapFunction(vector[i], vector[j]); // Swap data
+            i++;
+            j--;
+        }
+
+    } while(i <= j); // Stopping condition: i == j or j > i
+
+    if (initialPosition < j){
+        quickSort(vector, initialPosition, j); // left subset recursive sorting
+    }
+
+    if (i < finalPosition){
+        quickSort(vector, i, finalPosition); // right subset recursive sorting
+    }
+}
+
+/**
  * @brief Print vector
  * @param v
  */
@@ -147,17 +185,20 @@ void sortingAlgorithms (vector<int>& v, int option){
         case 4:
             shellSort(v);
             break;
+        case 5:
+            quickSort(v, 0, v.size());
+            break;
     }
 }
 
 
 int main(){
 
-    vector<int> numbers = {5, 3, 8, 1, 7, 10, 9, 22, 17};
+    vector<int> vNumbers = {5, 3, 8, 1, 7, 10, 9, 22, 17};
     int option;
 
     cout << "Original vector: ";
-    printVector(numbers);
+    printVector(vNumbers);
 
     do {
         cout << endl << "\n----------M E N U----------" <<endl;
@@ -165,6 +206,7 @@ int main(){
         cout << "[2] Insertion Sort" << endl;
         cout << "[3] Selection Sort" << endl;
         cout << "[4] Shell Sort" << endl;
+        cout << "[5] Quik Sort" << endl;
 
         cout << "[0] EXIT" << endl;
         cin >> option;
@@ -174,24 +216,29 @@ int main(){
                 cout << "Exit";
                 break;
             case 1:
-                sortingAlgorithms(numbers, option);
+                sortingAlgorithms(vNumbers, option);
                 cout << "Sorted vector by bubble sort: ";
-                printVector(numbers);
+                printVector(vNumbers);
                 break;
             case 2:
-                sortingAlgorithms(numbers, option);
+                sortingAlgorithms(vNumbers, option);
                 cout << "Sorted vector by insertion sort: ";
-                printVector(numbers);
+                printVector(vNumbers);
                 break;
             case 3:
-                sortingAlgorithms(numbers, option);
+                sortingAlgorithms(vNumbers, option);
                 cout << "Sorted vector by selection sort: ";
-                printVector(numbers);
+                printVector(vNumbers);
                 break;
             case 4:
-                sortingAlgorithms(numbers, option);
+                sortingAlgorithms(vNumbers, option);
                 cout << "Sortered vector by Shell Sort: ";
-                printVector(numbers);
+                printVector(vNumbers);
+                break;
+            case 5:
+                sortingAlgorithms(vNumbers, option);
+                cout << "Sortered vector by QuickSort: ";
+                printVector(vNumbers);
                 break;
             default:
                 cout << "No valid option. Please try again";
