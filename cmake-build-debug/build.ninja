@@ -82,6 +82,8 @@ build Matrix/CMakeFiles/Matrix.dir/main.cpp.obj: CXX_COMPILER__Matrix_unscanned_
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = Matrix\CMakeFiles\Matrix.dir
   OBJECT_FILE_DIR = Matrix\CMakeFiles\Matrix.dir
+  TARGET_COMPILE_PDB = Matrix\CMakeFiles\Matrix.dir\
+  TARGET_PDB = Matrix\Matrix.pdb
 
 
 # =============================================================================
@@ -97,9 +99,10 @@ build Matrix/Matrix.exe: CXX_EXECUTABLE_LINKER__Matrix_Debug Matrix/CMakeFiles/M
   OBJECT_DIR = Matrix\CMakeFiles\Matrix.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Matrix\CMakeFiles\Matrix.dir\
   TARGET_FILE = Matrix\Matrix.exe
   TARGET_IMPLIB = Matrix\libMatrix.dll.a
-  TARGET_PDB = Matrix.exe.dbg
+  TARGET_PDB = Matrix\Matrix.pdb
 
 
 #############################################
@@ -143,6 +146,8 @@ build Vector/CMakeFiles/Vector.dir/main.cpp.obj: CXX_COMPILER__Vector_unscanned_
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = Vector\CMakeFiles\Vector.dir
   OBJECT_FILE_DIR = Vector\CMakeFiles\Vector.dir
+  TARGET_COMPILE_PDB = Vector\CMakeFiles\Vector.dir\
+  TARGET_PDB = Vector\Vector.pdb
 
 
 # =============================================================================
@@ -158,9 +163,10 @@ build Vector/Vector.exe: CXX_EXECUTABLE_LINKER__Vector_Debug Vector/CMakeFiles/V
   OBJECT_DIR = Vector\CMakeFiles\Vector.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Vector\CMakeFiles\Vector.dir\
   TARGET_FILE = Vector\Vector.exe
   TARGET_IMPLIB = Vector\libVector.dll.a
-  TARGET_PDB = Vector.exe.dbg
+  TARGET_PDB = Vector\Vector.pdb
 
 
 #############################################
@@ -204,6 +210,8 @@ build Strings/CMakeFiles/Strings.dir/main.cpp.obj: CXX_COMPILER__Strings_unscann
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = Strings\CMakeFiles\Strings.dir
   OBJECT_FILE_DIR = Strings\CMakeFiles\Strings.dir
+  TARGET_COMPILE_PDB = Strings\CMakeFiles\Strings.dir\
+  TARGET_PDB = Strings\Strings.pdb
 
 
 # =============================================================================
@@ -219,9 +227,10 @@ build Strings/Strings.exe: CXX_EXECUTABLE_LINKER__Strings_Debug Strings/CMakeFil
   OBJECT_DIR = Strings\CMakeFiles\Strings.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Strings\CMakeFiles\Strings.dir\
   TARGET_FILE = Strings\Strings.exe
   TARGET_IMPLIB = Strings\libStrings.dll.a
-  TARGET_PDB = Strings.exe.dbg
+  TARGET_PDB = Strings\Strings.pdb
 
 
 #############################################
@@ -265,6 +274,8 @@ build SortingAlgorithms/CMakeFiles/SortingAlgorithms.dir/main.cpp.obj: CXX_COMPI
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   OBJECT_FILE_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
+  TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
+  TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
 
 
 # =============================================================================
@@ -280,9 +291,10 @@ build SortingAlgorithms/SortingAlgorithms.exe: CXX_EXECUTABLE_LINKER__SortingAlg
   OBJECT_DIR = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SortingAlgorithms\CMakeFiles\SortingAlgorithms.dir\
   TARGET_FILE = SortingAlgorithms\SortingAlgorithms.exe
   TARGET_IMPLIB = SortingAlgorithms\libSortingAlgorithms.dll.a
-  TARGET_PDB = SortingAlgorithms.exe.dbg
+  TARGET_PDB = SortingAlgorithms\SortingAlgorithms.pdb
 
 
 #############################################
@@ -326,6 +338,8 @@ build SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir/main.cpp.obj: CXX_COM
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = SearchesAlgorithms\CMakeFiles\SearchesAlgorithms.dir
   OBJECT_FILE_DIR = SearchesAlgorithms\CMakeFiles\SearchesAlgorithms.dir
+  TARGET_COMPILE_PDB = SearchesAlgorithms\CMakeFiles\SearchesAlgorithms.dir\
+  TARGET_PDB = SearchesAlgorithms\SearchesAlgorithms.pdb
 
 
 # =============================================================================
@@ -341,9 +355,10 @@ build SearchesAlgorithms/SearchesAlgorithms.exe: CXX_EXECUTABLE_LINKER__Searches
   OBJECT_DIR = SearchesAlgorithms\CMakeFiles\SearchesAlgorithms.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = SearchesAlgorithms\CMakeFiles\SearchesAlgorithms.dir\
   TARGET_FILE = SearchesAlgorithms\SearchesAlgorithms.exe
   TARGET_IMPLIB = SearchesAlgorithms\libSearchesAlgorithms.dll.a
-  TARGET_PDB = SearchesAlgorithms.exe.dbg
+  TARGET_PDB = SearchesAlgorithms\SearchesAlgorithms.pdb
 
 
 #############################################
@@ -369,6 +384,70 @@ build SearchesAlgorithms/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build SearchesAlgorithms/rebuild_cache: phony SearchesAlgorithms/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/sebav/CLionProjects/C_Fundamentals/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Struct
+
+
+#############################################
+# Order-only phony target for Struct
+
+build cmake_object_order_depends_target_Struct: phony || Struct/CMakeFiles/Struct.dir
+
+build Struct/CMakeFiles/Struct.dir/main.cpp.obj: CXX_COMPILER__Struct_unscanned_Debug C$:/Users/sebav/CLionProjects/C_Fundamentals/Struct/main.cpp || cmake_object_order_depends_target_Struct
+  DEP_FILE = Struct\CMakeFiles\Struct.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = Struct\CMakeFiles\Struct.dir
+  OBJECT_FILE_DIR = Struct\CMakeFiles\Struct.dir
+  TARGET_COMPILE_PDB = Struct\CMakeFiles\Struct.dir\
+  TARGET_PDB = Struct\Struct.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Struct
+
+
+#############################################
+# Link the executable Struct\Struct.exe
+
+build Struct/Struct.exe: CXX_EXECUTABLE_LINKER__Struct_Debug Struct/CMakeFiles/Struct.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Struct\CMakeFiles\Struct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Struct\CMakeFiles\Struct.dir\
+  TARGET_FILE = Struct\Struct.exe
+  TARGET_IMPLIB = Struct\libStruct.dll.a
+  TARGET_PDB = Struct\Struct.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build Struct/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\sebav\CLionProjects\C_Fundamentals\cmake-build-debug\Struct && C:\Users\sebav\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Struct/edit_cache: phony Struct/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Struct/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\sebav\CLionProjects\C_Fundamentals\cmake-build-debug\Struct && C:\Users\sebav\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\sebav\CLionProjects\C_Fundamentals -BC:\Users\sebav\CLionProjects\C_Fundamentals\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Struct/rebuild_cache: phony Struct/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build Matrix: phony Matrix/Matrix.exe
@@ -387,6 +466,10 @@ build Strings: phony Strings/Strings.exe
 
 build Strings.exe: phony Strings/Strings.exe
 
+build Struct: phony Struct/Struct.exe
+
+build Struct.exe: phony Struct/Struct.exe
+
 build Vector: phony Vector/Vector.exe
 
 build Vector.exe: phony Vector/Vector.exe
@@ -399,7 +482,7 @@ build Vector.exe: phony Vector/Vector.exe
 #############################################
 # Folder: C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug
 
-build all: phony Matrix/all Vector/all Strings/all SortingAlgorithms/all SearchesAlgorithms/all
+build all: phony Matrix/all Vector/all Strings/all SortingAlgorithms/all SearchesAlgorithms/all Struct/all
 
 # =============================================================================
 
@@ -432,6 +515,13 @@ build Strings/all: phony Strings/Strings.exe
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Struct
+
+build Struct/all: phony Struct/Struct.exe
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Vector
 
 build Vector/all: phony Vector/Vector.exe
@@ -443,14 +533,14 @@ build Vector/all: phony Vector/Vector.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/sebav/CLionProjects/C_Fundamentals/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Matrix/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SearchesAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SortingAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Strings/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Vector/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/sebav/CLionProjects/C_Fundamentals/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Matrix/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SearchesAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SortingAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Strings/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Struct/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Vector/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/sebav/CLionProjects/C_Fundamentals/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Matrix/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SearchesAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SortingAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Strings/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Vector/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Users/sebav/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/sebav/CLionProjects/C_Fundamentals/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Matrix/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SearchesAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/SortingAlgorithms/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Strings/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Struct/CMakeLists.txt C$:/Users/sebav/CLionProjects/C_Fundamentals/Vector/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
