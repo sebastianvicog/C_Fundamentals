@@ -1,3 +1,9 @@
 # ninja log v5
 1	677	7288588055062511	Struct/CMakeFiles/Struct.dir/main.cpp.obj	a1160ffc761b8d27
 680	816	7288588056382634	Struct/Struct.exe	a86332641b6dfc7d
+4	878	7288595242579157	Struct/CMakeFiles/Struct.dir/main.cpp.obj	a1160ffc761b8d27
+879	1075	7288595244446923	Struct/Struct.exe	a86332641b6dfc7d
+5	652	7288596783566677	Struct/CMakeFiles/Struct.dir/main.cpp.obj	a1160ffc761b8d27
+653	778	7288596784786574	Struct/Struct.exe	a86332641b6dfc7d
+4	545	7288599437712929	Struct/CMakeFiles/Struct.dir/main.cpp.obj	a1160ffc761b8d27
+545	669	7288599438912955	Struct/Struct.exe	a86332641b6dfc7d
