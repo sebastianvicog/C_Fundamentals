@@ -10,9 +10,29 @@ using namespace std;
  * @param size
  */
 void sequentialSearch(const int v[], int size, int data){
+    char flat = 'F';
+    int i = 0;
 
+    while ((flat == 'F') && (i < size)){
+        if (v[i] == data){
+            flat = 'T';
+        }
+        ++i;
+    }
+
+    if (flat == 'F'){
+        cout << endl << "- The number is not in the array" << endl;
+    } else {
+        cout << endl << "- The number is in the array. Position: " << i-1 << endl;
+    }
 }
 
+/**
+ * @brief Binary Search
+ * @param v
+ * @param size
+ * @param data
+ */
 void binarySearch(const int v[], int size, int data){
 
 }
@@ -41,7 +61,7 @@ int main(){
     cin >> data;
 
     do {
-            cout << endl << "----------Choose a search for data----------" <<endl;
+        cout << endl << "----------Choose a search for data----------" <<endl;
         cout << "[1] Sequential Search" << endl;
         cout << "[2] Binary Search" << endl;
         cout << "[0] EXIT" << endl;
@@ -52,12 +72,12 @@ int main(){
                 cout << "Exit";
                 break;
             case 1:
+                cout << "Sequential Search in a vector ";
                 sequentialSearch(vNumbers, size, data);
-                cout << "Sequential Search in a vector: ";
                 break;
             case 2:
+                cout << "Binary Search in a vector ";
                 binarySearch(vNumbers, size, data);
-                cout << "Binary Search in a vector: ";
                 break;
             default:
                 cout << "No valid option. Please try again";
