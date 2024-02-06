@@ -37,7 +37,7 @@ struct Runner {
     char club[20];
 } runner1;
 
-// [2.] To do a struct named student with these fields: Name, Age, Average.
+// [2.] To do a struct named student1 with these fields: Name, Age, Average.
 // Request data from the user for three students and check which of the students has the best average. Print his data.
 struct Student {
     char name[20];
@@ -58,6 +58,22 @@ struct Athlete{
     char country[15];
     int medalsNumber;
 }athletes[100];
+
+// [5.] To do two structures. A structure called Average with these data: exam1, exam2, exam3.
+//      And a structure called student2 with these data: name, gender, age.
+//      To do that first structure be nested in the second one. Then ask all the data for one student1. Calculate his average and print all the data.
+struct Average{
+    float exam1;
+    float exam2;
+    float exam3;
+};
+
+struct Student2{
+    char name[20];
+    char gender[15];
+    int age;
+    struct Average studentAverage;
+} student1;
 
 int main(){
 /*
@@ -158,15 +174,15 @@ int main(){
         cin >> students[i].average;
         cout << endl;
     }
-    //Calculating the best student
+    //Calculating the best student1
     for (int i = 0; i < 3; ++i){
         if (students[i].average > bestAverage){
             bestAverage = students[i].average;
             bestStudentPosition = i;
         }
     }
-    //Printing data of best student
-    cout << "\nThe student who has best average is: " << endl;
+    //Printing data of best student1
+    cout << "\nThe student1 who has best average is: " << endl;
     cout << "Name: " << students[bestStudentPosition].name << endl;
     cout << "Age: " << students[bestStudentPosition].age << endl;
     cout << "Average: " << students[bestStudentPosition].average;
@@ -219,6 +235,7 @@ int main(){
 */
 
 // [4.] N Athletes
+/*
     int n, moreMedals = 0, moreMedalsAthletePos;
     //Asking athletes number
     cout << "Type athletes number: ";
@@ -246,6 +263,33 @@ int main(){
     cout << "The athlete who has won more medals is: " << endl;
     cout << "Name: " << athletes[moreMedalsAthletePos].name << endl;
     cout << "Country: " << athletes[moreMedalsAthletePos].country << endl;
+*/
 
+// [5.] One student1
+    float average;
+
+    //Filling data
+    cout << "Name: ";
+    cin.getline(student1.name, 20, '\n');
+    cout << "Gender: ";
+    cin.getline(student1.gender, 15, '\n');
+    cout << "Age: ";
+    cin >> student1.age;
+    cout << "Exam mark 1: ";
+    cin >> student1.studentAverage.exam1;
+    cout << "Exam mark 2: ";
+    cin >> student1.studentAverage.exam2;
+    cout << "Exam mark 3: ";
+    cin >> student1.studentAverage.exam3;
+
+    //Calculating the average
+    average = (student1.studentAverage.exam1 + student1.studentAverage.exam2 + student1.studentAverage.exam3) / 3;
+
+    //Printing data
+    cout << "\nStudent Data: " << endl;
+    cout << "Name: " << student1.name << endl;
+    cout << "Gender: " << student1.gender << endl;
+    cout << "Age: " << student1.age << endl;
+    cout << "Average: " << average << endl;
 
 }
