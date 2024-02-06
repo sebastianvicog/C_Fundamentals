@@ -37,6 +37,14 @@ struct Runner {
     char club[20];
 } runner1;
 
+// [2.] To do a struct named student with these fields: Name, Age, Average.
+// Request data from the user for three students and check which of the students has the best average. Print his data.
+struct Student {
+    char name[20];
+    int age;
+    float average;
+} students[3];
+
 int main(){
 /*
 // Example 1. Use of a structure. Declaration in the struct.
@@ -78,7 +86,7 @@ int main(){
 
     //Printing data:
     for (int i = 0; i < 2; i++){
-        fflush(stdin); // Empty the buffer and enable typing of values
+        fflush(stdin); //Empty the buffer and enable typing of values
         cout << "Name: " << employees[i].name;
         cout << " Address: " << employees[i].employeeAddress.address;
         cout << " City: " << employees[i].employeeAddress.city;
@@ -88,7 +96,8 @@ int main(){
     }
 */
 
-// [1.] Runner
+// [1.] One Runner
+/*
     char category[20];
 
     //Filling data:
@@ -96,7 +105,7 @@ int main(){
     cin.getline(runner1.name, 30, '\n');
     cout << "Age: ";
     cin >> runner1.age;
-    fflush(stdin); //Empty the buffer
+    fflush(stdin); //Empty the buffer and enable typing of values
     cout << "Gender: ";
     cin.getline(runner1.gender,10,'\n');
     cout << "Club: ";
@@ -117,4 +126,34 @@ int main(){
     cout << "Gender: " << runner1.gender << endl;
     cout << "Club: " << runner1.club << endl;
     cout << "Category: " << category << endl;
+*/
+
+// [2.] Three Students
+    float bestAverage = 0;
+    int positionBestStudent;
+
+    //Filling data
+    for (int i = 0; i < 3; ++i){
+        fflush(stdin); //Empty the buffer and enable typing of values
+        cout << "Name: ";
+        cin.getline(students[i].name, 20, '\n');
+        cout << "Age: ";
+        cin >> students[i].age;
+        cout << "Average: ";
+        cin >> students[i].average;
+        cout << endl;
+    }
+    //Calculating the best student
+    for (int i = 0; i < 3; ++i){
+        if (students[i].average > bestAverage){
+            bestAverage = students[i].average;
+            positionBestStudent = i;
+        }
+    }
+    //Printing data of best student
+    cout << "\nThe student who has best average is: " << endl;
+    cout << "Name: " << students[positionBestStudent].name << endl;
+    cout << "Age: " << students[positionBestStudent].age << endl;
+    cout << "Average: " << students[positionBestStudent].average;
+
 }
