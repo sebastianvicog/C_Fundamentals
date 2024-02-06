@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <stdio.h>
+#include <string.h>
 
 using namespace std;
 
@@ -28,10 +29,17 @@ struct Employee {
     double salary;
 } employees[2]; // STRUCT ARRAY
 
+// [1.] To do a struct named runner with these fields: Name, Age, gender, club and competition category which can be juvenile (<=18), senior(<=40) or veteran(>40).
+struct Runner {
+    char name[30];
+    int age;
+    char gender[10];
+    char club[20];
+} runner1;
 
 int main(){
 /*
-//Example 1. Use of a structure. Declaration in the struct.
+// Example 1. Use of a structure. Declaration in the struct.
     cout << "Name1: " << person1.name << endl;
     cout << "Age1: " << person1.age << endl;
     cout << "Name2: " << person2.name << endl;
@@ -52,6 +60,7 @@ int main(){
 */
 
 // Example 2. Nested structures
+/*
     //Filling data:
     for (int i = 0; i < 2; i++){
         cout << "Type your name: ";
@@ -77,5 +86,35 @@ int main(){
         cout << " Salary: " << employees[i].salary;
         cout << endl;
     }
+*/
 
+// [1.] Runner
+    char category[20];
+
+    //Filling data:
+    cout << "Name: ";
+    cin.getline(runner1.name, 30, '\n');
+    cout << "Age: ";
+    cin >> runner1.age;
+    fflush(stdin); //Empty the buffer
+    cout << "Gender: ";
+    cin.getline(runner1.gender,10,'\n');
+    cout << "Club: ";
+    cin.getline(runner1.club, 20, '\n');
+
+    if (runner1.age <= 18){
+        strcpy(category, "Juvenile");
+    } else if (runner1.age <= 40){
+        strcpy(category, "Senior");
+    } else {
+        strcpy(category, "Veteran");
+    }
+
+    //Printing data
+    cout << "\nRunner Data " << endl;
+    cout << "Name: " << runner1.name << endl;
+    cout << "Age: " << runner1.age << endl;
+    cout << "Gender: " << runner1.gender << endl;
+    cout << "Club: " << runner1.club << endl;
+    cout << "Category: " << category << endl;
 }
