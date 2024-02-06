@@ -52,6 +52,13 @@ struct CompanyEmployee {
     float salary;
 };
 
+//[4.] To do an array (SIZE N) of athletes with these fields: Name, Country, MedalNumber and print (name, country) of the athlete who has won the most medals.
+struct Athlete{
+    char name[20];
+    char country[15];
+    int medalsNumber;
+}athletes[100];
+
 int main(){
 /*
 // Example 1. Use of a structure. Declaration in the struct.
@@ -166,6 +173,7 @@ int main(){
 */
 
 // [3.] N Company employees
+/*
     //Asking employees number
     int n;
     cout << "Type employees number: ";
@@ -199,7 +207,7 @@ int main(){
             worstSalaryPosition = i;
         }
     }
-    
+
     //Printing data
     cout << "\nThe employee with the best salary is: " << endl;
     cout << "Name: " << companyEmployee[bestSalaryPosition].name << endl;
@@ -208,6 +216,36 @@ int main(){
     cout << "\nThe employee with the worst salary is: " << endl;
     cout << "Name: " << companyEmployee[worstSalaryPosition].name << endl;
     cout << "Salary: " << companyEmployee[worstSalaryPosition].salary << endl;
+*/
+
+// [4.] N Athletes
+    int n, moreMedals = 0, moreMedalsAthletePos;
+    //Asking athletes number
+    cout << "Type athletes number: ";
+    cin >> n;
+
+    //Filling data
+    for (int i = 0; i < n; ++i){
+        fflush(stdin);
+        cout << "Name: ";
+        cin.getline(athletes[i].name, 20, '\n');
+        cout << "Country: ";
+        cin.getline(athletes[i].country, 15, '\n');
+        cout << "Medals number: ";
+        cin >> athletes[i].medalsNumber;
+
+        //Calculating the athlete who has won the most medals
+        if (athletes[i].medalsNumber > moreMedals){
+            moreMedals = athletes[i].medalsNumber;
+            moreMedalsAthletePos = i;
+        }
+        cout << endl;
+    }
+
+    //Printing data
+    cout << "The athlete who has won more medals is: " << endl;
+    cout << "Name: " << athletes[moreMedalsAthletePos].name << endl;
+    cout << "Country: " << athletes[moreMedalsAthletePos].country << endl;
 
 
 }
