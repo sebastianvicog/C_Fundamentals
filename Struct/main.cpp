@@ -45,6 +45,13 @@ struct Student {
     float average;
 } students[3];
 
+// [3.] To do a program that reads an array of structures with the data of N employees of the company and prints the data of the employee which the highest and lowest salary.
+struct CompanyEmployee {
+    char name[20];
+    int age;
+    float salary;
+};
+
 int main(){
 /*
 // Example 1. Use of a structure. Declaration in the struct.
@@ -129,8 +136,9 @@ int main(){
 */
 
 // [2.] Three Students
+/*
     float bestAverage = 0;
-    int positionBestStudent;
+    int bestStudentPosition;
 
     //Filling data
     for (int i = 0; i < 3; ++i){
@@ -147,13 +155,59 @@ int main(){
     for (int i = 0; i < 3; ++i){
         if (students[i].average > bestAverage){
             bestAverage = students[i].average;
-            positionBestStudent = i;
+            bestStudentPosition = i;
         }
     }
     //Printing data of best student
     cout << "\nThe student who has best average is: " << endl;
-    cout << "Name: " << students[positionBestStudent].name << endl;
-    cout << "Age: " << students[positionBestStudent].age << endl;
-    cout << "Average: " << students[positionBestStudent].average;
+    cout << "Name: " << students[bestStudentPosition].name << endl;
+    cout << "Age: " << students[bestStudentPosition].age << endl;
+    cout << "Average: " << students[bestStudentPosition].average;
+*/
+
+// [3.] N Company employees
+    //Asking employees number
+    int n;
+    cout << "Type employees number: ";
+    cin >> n;
+
+    struct CompanyEmployee companyEmployee[n];
+
+    //Filling data
+    for (int i = 0; i < n; ++i){
+        fflush(stdin);
+        cout << "Name: ";
+        cin.getline(companyEmployee[i].name, 20, '\n');
+        cout << "Age: ";
+        cin >> companyEmployee[i].age;
+        cout << "Salary: ";
+        cin >> companyEmployee[i].salary;
+        cout << endl;
+    }
+
+    double highestSalary = 0, lowestSalary = 10000;
+    int bestSalaryPosition, worstSalaryPosition;
+
+    //Calculating the best and the worst salary
+    for (int i = 0; i < n; ++i){
+        if (companyEmployee[i].salary > highestSalary){
+            highestSalary = companyEmployee[i].salary;
+            bestSalaryPosition = i;
+        }
+        if (companyEmployee[i].salary < lowestSalary){
+            lowestSalary = companyEmployee[i].salary;
+            worstSalaryPosition = i;
+        }
+    }
+    
+    //Printing data
+    cout << "\nThe employee with the best salary is: " << endl;
+    cout << "Name: " << companyEmployee[bestSalaryPosition].name << endl;
+    cout << "Salary: " << companyEmployee[bestSalaryPosition].salary << endl;
+
+    cout << "\nThe employee with the worst salary is: " << endl;
+    cout << "Name: " << companyEmployee[worstSalaryPosition].name << endl;
+    cout << "Salary: " << companyEmployee[worstSalaryPosition].salary << endl;
+
 
 }
