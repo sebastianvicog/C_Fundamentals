@@ -15,3 +15,6 @@ C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/SortingAlgorithms/
 C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/SearchesAlgorithms/CMakeFiles/SearchesAlgorithms.dir
 C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/SearchesAlgorithms/CMakeFiles/edit_cache.dir
 C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/SearchesAlgorithms/CMakeFiles/rebuild_cache.dir
+C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Struct/CMakeFiles/Struct.dir
+C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Struct/CMakeFiles/edit_cache.dir
+C:/Users/sebav/CLionProjects/C_Fundamentals/cmake-build-debug/Struct/CMakeFiles/rebuild_cache.dir

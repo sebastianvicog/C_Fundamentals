@@ -8,6 +8,7 @@ add_subdirectory(Vector)
 add_subdirectory(Strings)
 add_subdirectory(SortingAlgorithms)
 add_subdirectory(SearchesAlgorithms)
+add_subdirectory(Struct)
 
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/sebav/CLionProjects/C_Fundamentals/Searches
+# Install script for directory: C:/Users/sebav/CLionProjects/C_Fundamentals/Struct
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
