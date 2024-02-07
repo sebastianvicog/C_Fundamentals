@@ -75,6 +75,14 @@ struct Student2{
     struct Average studentAverage;
 } student1;
 
+//[7.] Define a struct that indicates the time taken by a cyclist in a stage.
+// The struct must have three fields: Hours, Minutes and Seconds.
+// Write a program that given n stages calculates the total time taken to ride all stages.
+struct Stages{
+    int hours;
+    int minutes;
+    int seconds;
+} stages[100];
 
 int main(){
 /*
@@ -339,5 +347,49 @@ int main(){
     cout << "Age: " << students2[bestAveragePosition].age << endl;
     cout << "Average: " << studentAverage[bestAveragePosition] << endl;
 */
+
+// [7.] N Stages
+    //Asking n stages
+    int n;
+    cout << "Type stages' number: ";
+    cin >> n;
+
+    int totalHours = 0, totalMinutes = 0, totalSeconds = 0;
+
+    //Filling data
+    for (int i = 0; i < n; ++i){
+        cout << "STAGE " << i+1 << ": " << endl;
+
+        cout << "- Hours: ";
+        cin >> stages[i].hours;
+        totalHours += stages[i].hours;
+
+        cout << "- Minutes: ";
+        cin >> stages[i].minutes;
+        totalMinutes += stages[i].minutes;
+
+        cout << "- Seconds: ";
+        cin >> stages[i].seconds;
+        totalSeconds += stages[i].seconds;
+
+        cout << endl;
+    }
+
+    //Calculating time
+    if (totalSeconds >= 60){
+        totalMinutes += (totalSeconds / 60);
+        totalSeconds = (totalSeconds % 60);
+    }
+    if (totalMinutes >= 60){
+        totalHours += (totalMinutes / 60);
+        totalMinutes = (totalMinutes % 60);
+    }
+
+    //Printing data
+    cout << "\nTotal Time: " << endl;
+    cout << "- Hours: " << totalHours << endl;
+    cout << "- Minutes: " << totalMinutes << endl;
+    cout << "- Seconds: " << totalSeconds << endl;
+
 
 }
