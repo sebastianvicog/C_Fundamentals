@@ -75,7 +75,7 @@ struct Student2{
     struct Average studentAverage;
 } student1;
 
-//[7.] Define a struct that indicates the time taken by a cyclist in a stage.
+// [7.] Define a struct that indicates the time taken by a cyclist in a stage.
 // The struct must have three fields: Hours, Minutes and Seconds.
 // Write a program that given n stages calculates the total time taken to ride all stages.
 struct Stages{
@@ -83,6 +83,15 @@ struct Stages{
     int minutes;
     int seconds;
 } stages[100];
+
+// [8.] Define a struct that represents a person. The struct must have two fields: person's name and a bool which indicates if the person have any disability.
+// Make a program that given a person's array, fills two new vectors: one that contains the people who haven't disability and another one which contains the people who have disability.
+struct Person8 {
+    char name[20];
+    bool disability; // T == 1 / F == 0
+} person8[100];
+
+
 
 int main(){
 /*
@@ -349,6 +358,7 @@ int main(){
 */
 
 // [7.] N Stages
+/*
     //Asking n stages
     int n;
     cout << "Type stages' number: ";
@@ -390,6 +400,53 @@ int main(){
     cout << "- Hours: " << totalHours << endl;
     cout << "- Minutes: " << totalMinutes << endl;
     cout << "- Seconds: " << totalSeconds << endl;
+*/
 
+// [8.] N people
+/*
+    int n;
+    cout << "Type people's number: ";
+    cin >> n;
 
+    //Filling data
+    for (int i = 0; i < n; ++i){
+        fflush(stdin);
+        cout << "Name: ";
+        cin.getline(person8[i].name, 20, '\n');
+
+        fflush(stdin);
+        cout << "Do you have any disability? (1 if it's true or 0 if not): "; // True == 1 / False == 0
+        cin >> person8[i].disability;
+
+        cout << endl;
+    }
+
+    //Filling two new vectors
+    int i = 0, j = 0, k = 0;
+    struct Person8 disabilityT[n];
+    struct Person8 disabilityF[n];
+
+    while ( i < n ){
+        if (person8[i].disability == 1){
+            disabilityT[j] = person8[i];
+            j++;
+        } else if (person8[i].disability == 0){
+            disabilityF[k] = person8[i];
+            k++;
+        }
+        i++;
+    }
+
+    //Printing two new vectors
+    cout << "\nDisability people's vector: " << endl;
+    for (int i = 0; i < j; ++i){
+        cout << disabilityT[i].name << ", ";
+    }
+    cout << endl;
+
+    cout << "\nNot disability people's vector: " << endl;
+    for (int i = 0; i < k; ++i){
+        cout << disabilityF[i].name << ", ";
+    }
+*/
 }
