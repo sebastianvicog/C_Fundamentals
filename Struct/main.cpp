@@ -29,7 +29,7 @@ struct Employee {
     double salary;
 } employees[2]; // STRUCT ARRAY
 
-// [1.] To do a struct named runner with these fields: Name, Age, gender, club and competition category which can be juvenile (<=18), senior(<=40) or veteran(>40).
+// [1.] Do a struct named runner with these fields: Name, Age, gender, club and competition category which can be juvenile (<=18), senior(<=40) or veteran(>40).
 struct Runner {
     char name[30];
     int age;
@@ -37,7 +37,7 @@ struct Runner {
     char club[20];
 } runner1;
 
-// [2.] To do a struct named student1 with these fields: Name, Age, Average.
+// [2.] Do a struct named student1 with these fields: Name, Age, Average.
 // Request data from the user for three students and check which of the students has the best average. Print his data.
 struct Student {
     char name[20];
@@ -45,14 +45,14 @@ struct Student {
     float average;
 } students[3];
 
-// [3.] To do a program that reads an array of structures with the data of N employees of the company and prints the data of the employee which the highest and lowest salary.
+// [3.] Do a program that reads an array of structures with the data of N employees of the company and prints the data of the employee which the highest and lowest salary.
 struct CompanyEmployee {
     char name[20];
     int age;
     float salary;
 };
 
-//[4.] To do an array (SIZE N) of athletes with these fields: Name, Country, MedalNumber and print (name, country) of the athlete who has won the most medals.
+//[4.] Do an array (SIZE N) of athletes with these fields: Name, Country, MedalNumber and print (name, country) of the athlete who has won the most medals.
 struct Athlete{
     char name[20];
     char country[15];
@@ -74,6 +74,7 @@ struct Student2{
     int age;
     struct Average studentAverage;
 } student1;
+
 
 int main(){
 /*
@@ -199,7 +200,7 @@ int main(){
 
     //Filling data
     for (int i = 0; i < n; ++i){
-        fflush(stdin);
+        fflush(stdin); //Empty the buffer and enable typing of values
         cout << "Name: ";
         cin.getline(companyEmployee[i].name, 20, '\n');
         cout << "Age: ";
@@ -266,6 +267,7 @@ int main(){
 */
 
 // [5.] One student1
+/*
     float average;
 
     //Filling data
@@ -291,5 +293,51 @@ int main(){
     cout << "Gender: " << student1.gender << endl;
     cout << "Age: " << student1.age << endl;
     cout << "Average: " << average << endl;
+*/
+
+// [6.] Use the two structures of problem 5 but now ask the data for N students and calculate which of them have the best average and print his data.
+/*
+    //Asking N students
+    int n;
+    cout << "Type students' number: ";
+    cin >> n;
+    struct Student2 students2[n];
+
+    float studentAverage[n]; // Students' average array
+    float bestAverage = 0;
+    int bestAveragePosition;
+
+    //Filling data
+    for (int i = 0; i < n; ++i){
+        fflush(stdin); //Empty the buffer and enable typing of values
+        cout << "Name: ";
+        cin.getline(students2[i].name, 20, '\n');
+        cout << "Age: ";
+        cin >> students2[i].age;
+        fflush(stdin); //Empty the buffer and enable typing of values
+        cout << "Gender: ";
+        cin.getline(students2[i].gender, 15, '\n');
+        cout << "Exam mark 1: ";
+        cin >> students2[i].studentAverage.exam1;
+        cout << "Exam mark 2: ";
+        cin >> students2[i].studentAverage.exam2;
+        cout << "Exam mark 3: ";
+        cin >> students2[i].studentAverage.exam3;
+
+        //Calculating the best average
+        studentAverage[i] = (students2[i].studentAverage.exam1 + students2[i].studentAverage.exam2 + students2[i].studentAverage.exam3) / 3;
+        if (studentAverage[i] > bestAverage){
+            bestAverage = studentAverage[i];
+            bestAveragePosition = i;
+        }
+        cout << endl;
+    }
+
+    //Printing best student's data
+    cout << "\nThe best student's average is: " << endl;
+    cout << "Name: " << students2[bestAveragePosition].name << endl;
+    cout << "Age: " << students2[bestAveragePosition].age << endl;
+    cout << "Average: " << studentAverage[bestAveragePosition] << endl;
+*/
 
 }
